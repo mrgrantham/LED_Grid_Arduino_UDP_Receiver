@@ -6,7 +6,7 @@
 
 int dataPin  = 2;    // White wire on my Grid
 int clockPin = 3;    // Green wire on my Grid
-// Number of RGB LEDs in strand:
+
 const int nLEDs = 49;
 
 Adafruit_WS2801 strip = Adafruit_WS2801(49, dataPin, clockPin);
